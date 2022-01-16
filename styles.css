@@ -150,6 +150,13 @@ hr {
   margin: 5%;
 }
 
+.therapea .question p {
+  font-family: "Poppins", "Lato";
+  color: #4B2162;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
 .therapea-banner {
   background-color: #FFDC98;
   padding: 10%;
@@ -158,6 +165,7 @@ hr {
 .therapea-banner h1 {
   font-family: "Poppins", "Lato";
   color: #4B2162;
+  font-weight: 600;
 }
 
 .therapea-banner p {
@@ -192,7 +200,6 @@ hr {
   margin: 2%;
 }
 
-
 .therapea .section {
   margin-bottom: 10%;
 }
@@ -207,12 +214,34 @@ hr {
 }
 
 .interNet-banner {
-  background-color: #FFDC98;
+  background-color: #B4CDED;
   padding: 10%;
+}
+
+.interNet-banner h1 {
+  font-family: "Readex Pro";
+  font-weight: bold;
+  color: #344966;
+}
+
+.interNet-banner p {
+  font-family: "Source Sans Pro";
+  color: black;
 }
 
 .interNet .section {
   margin-bottom: 10%;
+}
+
+.interNet h1 {
+  font-family: "Readex Pro";
+  font-weight: bold;
+  color: #BFCC94;
+}
+
+.interNet p {
+  font-family: "Source Sans Pro";
+  color: black;
 }
 
 
