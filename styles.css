@@ -159,13 +159,38 @@ hr {
 
 .therapea-banner {
   background-color: #FFDC98;
-  padding: 10%;
+  padding: 15%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+
+.therapea-banner .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.therapea-banner .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.therapea-banner img {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: -3%;
+  top: -70%;
 }
 
 .therapea-banner h1 {
   font-family: "Poppins", "Lato";
   color: #4B2162;
   font-weight: 600;
+  font-size: 55px;
 }
 
 .therapea-banner p {
@@ -208,25 +233,47 @@ hr {
   width: 100%;
 }
 
+@media(max-width: 1000px) {
+  .therapea-banner img {
+    display: none;
+  }
+}
+
 /* INTERNET */
 .interNet {
-  margin: 10%;
+  margin: 7%;
 }
 
 .interNet-banner {
   background-color: #B4CDED;
-  padding: 10%;
+  padding: 15%;
+  padding-top: 14%;
+  padding-bottom: 14%;
 }
 
 .interNet-banner h1 {
   font-family: "Readex Pro";
   font-weight: bold;
   color: #344966;
+  font-size: 50px;
 }
 
 .interNet-banner p {
   font-family: "Source Sans Pro";
   color: black;
+}
+
+.interNet-banner img {
+  width: 100%;
+  position: absolute;
+  top: -70%;
+  /* right: -70%; */
+}
+
+.interNet {
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
 }
 
 .interNet .section {
@@ -244,8 +291,87 @@ hr {
   color: black;
 }
 
+.interNet img{
+  width: 100%;
+}
+
+.interNet .btn-primary {
+  background-color: #344966;
+  border-color: #344966;
+}
+
+.interNet .btn-primary:hover {
+  background-color: #B4CDED;
+  border-color: #B4CDED;
+  color: black;
+}
+
+@media(max-width: 1000px) {
+  .interNet-banner img {
+    display: none;
+  }
+}
+
+/* DEATH RATES */
+.covid-banner {
+  background-color: #344966;
+  padding: 15%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+
+.covid-banner h1 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  color: white;
+}
+
+.covid-banner p {
+  font-family: "Helvetica Neue";
+  color: #B4CDED;
+}
+
+.covid {
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+}
+
+.covid .section {
+  margin: 10%;
+}
+
+.covid p {
+  font-family: "Source Sans Pro";
+  color: black;
+}
+
+.covid h1 {
+  font-family: "Helvetica Neue";
+  color: #344966;
+}
+
+.covid .btn-primary {
+  background-color: #B4CDED;
+  border-color: #B4CDED;
+  color: black;
+}
+
+.covid .btn-primary:hover {
+  background-color: #344966;
+  border-color: #344966;
+}
 
 /* OTHER */
+.gallery {
+  text-align: center;
+}
+
+.gallery-intro {
+  text-align: center;
+}
+
 .gallery img{
   width: 30%;
+  padding: 10px;
 }
