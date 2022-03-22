@@ -16,7 +16,7 @@ body {
   background-color: #fef9ef;
 }
 
-.intro {
+.portfolio_intro {
   color: #227c9d;
   text-align: left;
   padding: 5% 5%;
@@ -24,12 +24,12 @@ body {
   margin-right: 5rem;
 }
 
-.intro h2 {
+.portfolio_intro h2 {
   font-family: 'Karla';
   font-style: italic;
 }
 
-.intro p {
+.portfolio_intro p {
   font-size: 16px;
 }
 
@@ -48,11 +48,13 @@ p {
   font-family: "Karla";
 }
 
-.cow {
-  width: 300px;
+.profile_pic {
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 40px;
 }
 
 hr {
@@ -215,7 +217,7 @@ hr {
   justify-content: center;
 }
 
-.therapea .problem-space img{
+.therapea img{
   width: 100%;
   margin-bottom: 2%;
 }
@@ -293,6 +295,11 @@ hr {
 
 .interNet img{
   width: 100%;
+}
+
+.interNet .design img{
+  width: 49%;
+  justify-content: center;
 }
 
 .interNet .btn-primary {
