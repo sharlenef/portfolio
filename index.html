@@ -18,11 +18,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <!-- FONTS -->
+    <!-- FONTS -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Karla:ital,wght@0,400;0,500;1,400&family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600&family=Readex+Pro:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,400&family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/df2c01791c.js" crossorigin="anonymous"></script>
 
@@ -30,46 +30,59 @@
   <body>
     
   <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">sharlene fang</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="portfolio.html">work</a>
-          <a class="nav-item nav-link active" href="index.html">about<span class="sr-only">(current)</span></a>
-          <!-- <a class="nav-item nav-link" href="resume.html">resume</a> -->
-          
-          <!-- <a class="nav-item nav-link" href="#">Contact Me</a> -->
-        </div>
+  <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">sharlene fang</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="index.html">work <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="profile.html">about</a>
+        <!-- <a class="nav-item nav-link" href="resume.html">resume</a> -->
+        
+        <!-- <a class="nav-item nav-link" href="#">Contact Me</a> -->
       </div>
-    </nav>
-    
-  <!-- MIDDLE -->
-  <div class="middle">
-    <div class="skill-row">
-      <img class="profile_pic" src="img/profile.png" alt="picture of sharlene">
-      <h3>About me</h3>
-      <p>
-        Hi again! My name is Sharlene Fang and I'm currently third year student at the 
-        University of Washington Seattle. I am majoring in Informatics with a 
-        focus in Human Computer Interaction as I strive to become a UX designer
-        in the future. I love that through the UI/UX field, I can take my 
-        passion of design and combine it with psychology and technology to 
-        bring my art to life and innovate solutions to improve the lives of others. 
-        I aim to not only generate positive user experience, but also become a responsible 
-        and reflective designer that is capable of creating diverse and inclusive 
-        products.
-      </p>
     </div>
-    <!-- <div class="skill-row">
-      <p>你好！我叫Sharlene! 我目前是西雅圖華盛頓大學，三年級學生，主修Informatics (Human Computer Interaction)，並計劃未來朝UX Designer方向前進。</p>
-    </div> -->
-    <!-- <div class="skill-row">
-      <p>はじめまして！ Sharleneと申します. ワシントン大学の三年生で、インフォマティクスをせんこうしています。　少し日本語がわかります。</p>
-    </div> -->
+  </nav>
+
+  <!-- INTRO   -->
+  <div class="portfolio_intro">
+    <h1>Hi I'm Sharlene!</h1>
+    <h2>Aspiring UX Designer</h2>
+    <p>I'm a 3rd year informatics student studying HCI at the University of Washington. I enjoy combining my passion for art and technology to create innovative and impactful products that inspires the good in others.</p>
   </div>
+
+  <!-- CONTENT -->
+  <div class='portfolio'>
+    
+      <a href="therapea.html" class="portfolio-item">
+        <img src="img/therapea.png" alt="picture of therapea app">
+      </a>
+      <!-- <div class="middle">
+        <div class="text">Therapea</div>
+      </div> -->
+
+      <a href="interNet.html" class="portfolio-item">
+        <img src="img/interNet.png" alt="picture of interNet website">
+      </a>
+      <!-- <div class="middle">
+        <div class="text">interNet</div>
+      </div> -->
+      
+      <a href="deathrates.html" class="portfolio-item">
+        <img src="img/deathRates.png" alt="picture of covid-19 death rates website">
+      </a>
+      <!-- <div class="middle">
+        <div class="text">Web</div>
+      </div> -->
+
+      <a href="other.html" class="portfolio-item">
+        <img src="img/otherWorks.png" alt="link to other works">
+      </a>
+    
+  </div>
+  
 
     <!-- FOOTER -->
     
