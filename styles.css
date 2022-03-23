@@ -57,6 +57,17 @@ p {
   margin-bottom: 40px;
 }
 
+@media(max-width: 800px) {
+  .profile_pic {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 40px;
+  }
+}
+
 hr {
     border: dotted #7E90A8 10px;
     border-bottom: none;
@@ -87,7 +98,6 @@ hr {
 .fticon {
   margin: 20px 10px;
 }
-
 
 .footer {
   text-align: center;
@@ -381,4 +391,17 @@ hr {
 .gallery img{
   width: 30%;
   padding: 10px;
+}
+
+@media(max-width: 800px) {
+  .gallery img{
+    width: 350px;
+    padding: 10px;
+  }
+
+  .gallery-intro {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+  }
 }
