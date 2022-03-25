@@ -183,9 +183,6 @@ hr {
 }
 
 /* THERAPEA */
-.therapea {
-  margin: 5%;
-}
 
 .therapea .question p {
   font-family: "Poppins", "Lato";
@@ -247,6 +244,7 @@ hr {
 }
 
 .therapea {
+  margin: 5%;
   margin-left: 20%;
   margin-right: 20%;
   justify-content: center;
@@ -264,6 +262,13 @@ hr {
 
 .therapea .section {
   margin-bottom: 10%;
+}
+
+@media(max-width: 600px) {
+  .therapea {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
 }
 
 .therapea .iframe {
@@ -311,6 +316,13 @@ hr {
   margin-left: 20%;
   margin-right: 20%;
   justify-content: center;
+}
+
+@media(max-width: 600px) {
+  .interNet {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
 }
 
 .interNet .section {
@@ -379,8 +391,15 @@ hr {
   justify-content: center;
 }
 
+@media(max-width: 600px) {
+  .covid {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+
 .covid .section {
-  margin: 10%;
+  margin: 5%;
 }
 
 .covid p {
