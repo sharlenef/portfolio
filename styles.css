@@ -94,8 +94,8 @@ hr {
   .navbar {
     padding: 0 0 4.5rem;
     margin: 4rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 
@@ -144,8 +144,8 @@ hr {
 
 @media(max-width:600px) {
   .skill-row{
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     width: auto;
   }
 }
