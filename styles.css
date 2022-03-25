@@ -24,6 +24,14 @@ body {
   margin-right: 5rem;
 }
 
+@media(max-width:600px) {
+  .portfolio_intro {
+    padding: 5% 5%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+
 .portfolio_intro h2 {
   font-family: 'Karla';
   font-style: italic;
@@ -82,6 +90,15 @@ hr {
   margin-right: 6rem;
 }
 
+@media(max-width:600px) {
+  .navbar {
+    padding: 0 0 4.5rem;
+    margin: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
 .navbar-nav {
   justify-content: right;
   
@@ -123,6 +140,14 @@ hr {
   margin: 100px auto;
   text-align: left;
   width: 50%;
+}
+
+@media(max-width:600px) {
+  .skill-row{
+    margin-left: 12%;
+    margin-right: 12%;
+    width: auto;
+  }
 }
 
 .bottom-cloud {
