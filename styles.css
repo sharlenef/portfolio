@@ -423,6 +423,97 @@ hr {
   border-color: #344966;
 }
 
+
+/* GETWELL */
+.getWell {
+  margin: 7%;
+}
+
+.getWell-banner {
+  background-color: #CCDDEF;
+  padding: 15%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+
+.getWell-banner h1 {
+  font-family: "Yeseva One";
+  font-weight: bold;
+  color: #1E2F4D;
+  font-size: 50px;
+}
+
+.getWell-banner p {
+  font-family: "Questrial";
+  color: black;
+}
+
+.getWell-banner img {
+  width: 100%;
+  position: absolute;
+  top: -70%;
+  /* right: -70%; */
+}
+
+.getWell .statement p {
+  font-family: "Yeseva One";
+  color: #1E2F4D;
+  font-size: 35px;
+}
+
+.getWell img{
+  width: 100%;
+}
+
+.getWell .software-arch img{
+  width: 100%;
+  justify-content: center;
+}
+
+.getWell {
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+}
+
+.getWell h1 {
+  font-family: "Yeseva One";
+  color: #FEB930;
+}
+
+.getWell p {
+  font-family: "Questrial";
+  color: #1E2F4D;
+}
+
+.getWell .btn-primary {
+  background-color: #1E2F4D;
+  border-color: #1E2F4D;
+}
+
+.getWell .btn-primary:hover {
+  background-color: #CCDDEF;
+  border-color: #CCDDEF;
+  color: black;
+}
+
+@media(max-width: 600px) {
+  .getWell {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+
+.getWell .section {
+  margin-bottom: 10%;
+}
+
+@media(max-width: 1000px) {
+  .getWell-banner img {
+    display: none;
+  }
+}
+
 /* OTHER */
 .gallery {
   text-align: center;
