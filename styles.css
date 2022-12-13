@@ -449,9 +449,9 @@ hr {
 }
 
 .getWell-banner img {
-  width: 100%;
+  width: 110%;
   position: absolute;
-  top: -70%;
+  top: -40%;
   /* right: -70%; */
 }
 
@@ -481,7 +481,7 @@ hr {
   color: #FEB930;
 }
 
-.getWell p {
+.getWell p, ul{
   font-family: "Questrial";
   color: #1E2F4D;
 }
@@ -507,6 +507,7 @@ hr {
 .getWell .section {
   margin-bottom: 10%;
 }
+
 
 @media(max-width: 1000px) {
   .getWell-banner img {
