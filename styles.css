@@ -345,6 +345,11 @@ hr {
   color: black;
 }
 
+.interNet ul {
+  font-family: "Source Sans Pro";
+  color: black;
+}
+
 .interNet img{
   width: 100%;
 }
